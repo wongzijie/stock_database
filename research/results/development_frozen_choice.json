@@ -1,0 +1,23 @@
+{
+  "frozen_all": {
+    "n": 164,
+    "m": 99,
+    "mode": "basket2",
+    "dev_cagr": 0.5264027533798472,
+    "dev_sharpe": 1.0396551092370236
+  },
+  "frozen_basket5": {
+    "n": 184,
+    "m": 197,
+    "mode": "basket5",
+    "dev_cagr": 0.4147794859915954,
+    "dev_sharpe": 1.0792512798147549
+  },
+  "frozen_daily1": {
+    "n": 21,
+    "m": 94,
+    "mode": "daily1",
+    "dev_cagr": 0.4272806717988122,
+    "dev_sharpe": 0.8531352368296692
+  }
+}

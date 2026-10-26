@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "synthetic_fixtures": 5,
+  "real_ranking_samples": 270,
+  "checks": [
+    "All six families self-finance; exact five-day fee compounding; daily repeated ticker still at most5 lots",
+    "Next-open fills and five-open-interval exit; no same-close fills",
+    "Missing entry slot retained as cash without redistribution",
+    "Missing exit waits for observed open rather than fabricating a fill",
+    "Overdue sleeve blocks replacement and cannot exceed the5-position cap",
+    "Exact internal and boundary ties preserve ticker order for every K=1..5",
+    "270 ordered top5 GPU rankings exactly match independent direct-mean CPU implementation"
+  ],
+  "device": "NVIDIA GeForce RTX 5090"
+}

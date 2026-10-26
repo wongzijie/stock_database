@@ -1,0 +1,11 @@
+{
+  "stock_universe": 800,
+  "source_cutoff": "2025-12-31",
+  "controls": 24,
+  "spy_source_sha256": "7fa7e40440c7f2dc0926aea3c04c0b7eae08399d21f113d6d07926895c2f5eac",
+  "start_eligible_by_period": {
+    "long": 225,
+    "matched": 247,
+    "later": 641
+  }
+}

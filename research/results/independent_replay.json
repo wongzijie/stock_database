@@ -1,0 +1,72 @@
+{
+  "frozen_all__matched": {
+    "passed": true,
+    "max_daily_relative_error": 4.440892098500626e-15,
+    "max_open_lots": 2,
+    "terminal_lots": 0,
+    "stock_trade_count": 3314,
+    "trade_win_rate": 0.5307785153892577,
+    "mean_trade_return": 0.01156881848475505,
+    "max_holding_days": 5
+  },
+  "frozen_all__later": {
+    "passed": true,
+    "max_daily_relative_error": 1.9984014443252818e-15,
+    "max_open_lots": 2,
+    "terminal_lots": 0,
+    "stock_trade_count": 1004,
+    "trade_win_rate": 0.5348605577689243,
+    "mean_trade_return": 0.011658399603766778,
+    "max_holding_days": 5
+  },
+  "frozen_basket5__later": {
+    "passed": true,
+    "max_daily_relative_error": 4.440892098500626e-15,
+    "max_open_lots": 5,
+    "terminal_lots": 0,
+    "stock_trade_count": 2510,
+    "trade_win_rate": 0.5262948207171315,
+    "mean_trade_return": 0.008847652136421821,
+    "max_holding_days": 5
+  },
+  "frozen_daily1__later": {
+    "passed": true,
+    "max_daily_relative_error": 4.440892098500626e-16,
+    "max_open_lots": 5,
+    "terminal_lots": 0,
+    "stock_trade_count": 2509,
+    "trade_win_rate": 0.4998007174172977,
+    "mean_trade_return": 0.007694168024667115,
+    "max_holding_days": 5
+  },
+  "full_descriptive__later": {
+    "passed": true,
+    "max_daily_relative_error": 3.3306690738754696e-15,
+    "max_open_lots": 2,
+    "terminal_lots": 0,
+    "stock_trade_count": 1004,
+    "trade_win_rate": 0.5378486055776892,
+    "mean_trade_return": 0.013573941833644326,
+    "max_holding_days": 5
+  },
+  "original5__later": {
+    "passed": true,
+    "max_daily_relative_error": 3.3306690738754696e-15,
+    "max_open_lots": 5,
+    "terminal_lots": 0,
+    "stock_trade_count": 2510,
+    "trade_win_rate": 0.5219123505976095,
+    "mean_trade_return": 0.006893111685511222,
+    "max_holding_days": 5
+  },
+  "original_same_cap__later": {
+    "passed": true,
+    "max_daily_relative_error": 1.3322676295501878e-15,
+    "max_open_lots": 2,
+    "terminal_lots": 0,
+    "stock_trade_count": 1004,
+    "trade_win_rate": 0.5129482071713147,
+    "mean_trade_return": 0.006756107270595335,
+    "max_holding_days": 5
+  }
+}

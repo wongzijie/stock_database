@@ -1,0 +1,105 @@
+{
+  "choices": {
+    "frozen_all": {
+      "n": 164,
+      "m": 99,
+      "mode": "basket2",
+      "dev_cagr": 0.5264027533798472,
+      "dev_sharpe": 1.0396551092370236
+    },
+    "frozen_basket5": {
+      "n": 184,
+      "m": 197,
+      "mode": "basket5",
+      "dev_cagr": 0.4147794859915954,
+      "dev_sharpe": 1.0792512798147549
+    },
+    "frozen_daily1": {
+      "n": 21,
+      "m": 94,
+      "mode": "daily1",
+      "dev_cagr": 0.4272806717988122,
+      "dev_sharpe": 0.8531352368296692
+    },
+    "full_descriptive": {
+      "n": 187,
+      "m": 99,
+      "mode": "basket2"
+    },
+    "original5": {
+      "n": 200,
+      "m": 252,
+      "mode": "basket5",
+      "skip": 21
+    },
+    "original_same_cap": {
+      "n": 200,
+      "m": 252,
+      "mode": "basket2",
+      "skip": 21
+    }
+  },
+  "goal_comparisons": [
+    {
+      "period": "matched",
+      "benchmark": "SPY",
+      "strategy_cagr": 0.504001934813697,
+      "benchmark_cagr": 0.1068431304515811,
+      "excess_cagr_pp": 39.71588043621159,
+      "beat": true,
+      "terminal_lots": 0
+    },
+    {
+      "period": "matched",
+      "benchmark": "A800_start_eligible_EW",
+      "strategy_cagr": 0.504001934813697,
+      "benchmark_cagr": 0.1360086781064873,
+      "excess_cagr_pp": 36.799325670720975,
+      "beat": true,
+      "terminal_lots": 0
+    },
+    {
+      "period": "matched",
+      "benchmark": "start_liquidity_top5_BH",
+      "strategy_cagr": 0.504001934813697,
+      "benchmark_cagr": 0.1462085384762557,
+      "excess_cagr_pp": 35.77933963374414,
+      "beat": true,
+      "terminal_lots": 0
+    },
+    {
+      "period": "later",
+      "benchmark": "SPY",
+      "strategy_cagr": 0.4772760829113567,
+      "benchmark_cagr": 0.1496990227971815,
+      "excess_cagr_pp": 32.75770601141752,
+      "beat": true,
+      "terminal_lots": 0
+    },
+    {
+      "period": "later",
+      "benchmark": "A800_start_eligible_EW",
+      "strategy_cagr": 0.4772760829113567,
+      "benchmark_cagr": 0.1862043479867094,
+      "excess_cagr_pp": 29.10717349246473,
+      "beat": true,
+      "terminal_lots": 0
+    },
+    {
+      "period": "later",
+      "benchmark": "start_liquidity_top5_BH",
+      "strategy_cagr": 0.4772760829113567,
+      "benchmark_cagr": 0.24352229574895,
+      "excess_cagr_pp": 23.375378716240668,
+      "beat": true,
+      "terminal_lots": 0
+    }
+  ],
+  "all_scenarios": 330456,
+  "max_observed_lots": 5,
+  "max_observed_exposure": 1.0,
+  "terminal_illiquid_scenarios": 0,
+  "delayed_exit_scenarios": 11792,
+  "independent_accounts": 7,
+  "seconds": 2.97
+}

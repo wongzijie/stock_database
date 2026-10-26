@@ -1,0 +1,30 @@
+{
+  "archive_parts_verified": 45,
+  "local_markdown_links_verified": 22,
+  "symbols": 800,
+  "source_rows": 5071038,
+  "primary_later_trades": 1004,
+  "primary_trade_holding_intervals": 5,
+  "full_rows_verified": 660912,
+  "max_lots": 5.0,
+  "max_exposure": 1.0,
+  "terminal_illiquid_rows": 0,
+  "net_scenarios_with_delayed_exit": 11792,
+  "original_code_files_unchanged": [
+    "freeze_choice.py",
+    "PROTOCOL.json",
+    "book.cpp",
+    "run_grid.py",
+    "tests.py",
+    "export_compact.py",
+    "benchmarks.py",
+    "audit_raw.py",
+    "prepare.py",
+    "analyze.py",
+    "gpu_core.py"
+  ],
+  "frozen_protocol_unchanged": true,
+  "credential_patterns_found": 0,
+  "publication_date": "2026-10-26",
+  "note": "Publication validation and byte equality; no new strategy selection or GPU rerun"
+}

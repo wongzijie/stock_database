@@ -1,0 +1,22 @@
+{
+ "id":"A800-CAP5-H5-v1", "goal":"Find and honestly validate historical net outperformance versus buy-and-hold, not guarantee future outperformance",
+ "universe":"All 800 exact CSV symbols in /home/olliee/文档/Agent/stock_raw_data/raw; frozen copies and SHA256; not a B2466 subset",
+ "data_cutoff":"2025-12-31", "grid":{"n":[5,200],"m":[20,300],"inclusive_integers":true,"pairs":55076},
+ "eligibility":"Last253 consecutive XNYS sessions finite positive vendor close, adjusted close and share volume; no forward fill",
+ "liquidity":"Trailing n-session vendor Close*Volume average including signal date; cross-sectional maximum500; vendor split-adjusted dollar-volume proxy, not independently reconstructed historical nominal prices",
+ "momentum":"AdjClose[t-5]/AdjClose[t-m]-1; endpoint missing excluded within top500; no positive-score filter; exact ties ticker ascending",
+ "portfolio_families":["Every5sessions equal-weight top1","Every5sessions equal-weight top2","Every5sessions equal-weight top3","Every5sessions equal-weight top4","Every5sessions equal-weight top5","Daily top1 with five independent initially20% cash sleeves"],
+ "hold":"Signal close, next open entry, target exit at entry+5 XNYS opens; no stops, leverage, intraday optimization or early discretionary sell",
+ "cap":"At most5 open lots and therefore at most5 distinct securities at all times. Basket families cap lots at their K. Basket renewal waits for old positions to clear; a daily sleeve with overdue position cannot open a replacement",
+ "anchor":"Basket signal index t obeys (t-300)%5==0 against frozen XNYS calendar starting1990-01-02; main phase0 never optimized. Selected strategies also tested all5 phase offsets separately, never combine them into a fictitious25-stock account",
+ "cash":"Basket uses available cash split K ways; daily sleeve compounds its own money. Fractional adjusted-price index units; cash yield0",
+ "execution":"Only finite positive adjusted open with positive reported daily volume executable; missing entry keeps cash, missing exit deferred until valid open; no future-feasibility filtering of signals. Missing close uses causal last observed mark, all exceptions disclosed",
+ "costs_main_bps_oneway":[0,10],"costs_selected_bps_oneway":[5,20],
+ "development":"Common start1991 after300-session warmup through2015-12-31; choose highest net CAGR at10bps across all55076x6 families; ties netSharpe then smaller n,m,mode",
+ "later_validation":"2016-2025 reset equal initial accounts and preserve absolute calendar anchor; not a pristine never-observed holdout, prior projects used these dates",
+ "benchmarks":["SPY buyhold with matched next-open entry and end-open exit, identical costs","Equal-weight buyhold of A800 symbols satisfying253-session eligibility at period start; actual count disclosed, later IPOs are not retrospectively bought","Buyhold top5 liquidity names at period start as a position-cap control"],
+ "full_SPY_comparison":"SPY starts1993; all-grid running accounts normalized to first comparable date are descriptive. Frozen selected strategies additionally rerun with reset cash and identical1993 start before claiming matched full-window outperformance",
+ "success":"Report whether development-frozen selection beats SPY and the same-pool buyhold after10bps costs in matched long and later windows; do not pick using later returns or manufacture a win. Also report risk, cost and phase sensitivity",
+ "production":"Existing B2466 live service and previous report untouched; new standalone research artifact",
+ "biases":["Static future-known survivor universe","Large parameter search and prior historical inspection","Vendor adjusted-price index approximation and incomplete identity/action chain","No impact, tax, capacity or cash yield model"]
+}

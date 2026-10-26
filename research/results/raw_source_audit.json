@@ -1,0 +1,12 @@
+{
+  "raw_csv_trades_checked": 1004,
+  "raw_csv_symbols_checked": 123,
+  "max_raw_return_absolute_error": 9.8879238130678e-17,
+  "second_snapshot_trades": 561,
+  "second_snapshot_max_difference": 7.712808405280214e-07,
+  "second_snapshot_median_difference": 0.0,
+  "second_snapshot_differences_over_1bp": 0,
+  "absolute_trade_returns_over100pct": [],
+  "max_holding_days": 5,
+  "holding_days_not5": 0
+}
