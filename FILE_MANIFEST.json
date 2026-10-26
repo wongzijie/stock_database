@@ -13,9 +13,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 3424,
-      "sha256": "0252d087d171a6d0aa18e5ea4b71d95fc6a20690c55ed095bf4cf376b9acd2e3",
-      "git_blob_sha1": "0d38c03f83c6268ed7dce82c91d223186037e7d8"
+      "bytes": 8076,
+      "sha256": "fde2ce246c3b6400fd04f284f7515fc3a33ddce9e140906ed46f3f868a2651e1",
+      "git_blob_sha1": "4720cad2fc96970f240a5d548dcbee03671502bf"
     },
     {
       "path": "build_result_doc.py",
@@ -432,6 +432,24 @@
       "git_blob_sha1": "60e4e6e7909aa77faaa4e04a10e305709f5c89a2"
     },
     {
+      "path": "research/report-assets/README.md",
+      "bytes": 3038,
+      "sha256": "be419b7cc718f58957ad4b9317a4db59101e139b69cc27165a14136b1766e14e",
+      "git_blob_sha1": "1e2bff01bbe3d77db604c3b3a176be3807a108ff"
+    },
+    {
+      "path": "research/report-assets/annual-returns.png",
+      "bytes": 171704,
+      "sha256": "2a67a11986618d2849320f0a07e38c9642d980e224d9b5c5bf6fd0179500fed3",
+      "git_blob_sha1": "fb857210e727708e36110c2fcf74eae3eafa591a"
+    },
+    {
+      "path": "research/report-assets/cost-sensitivity.png",
+      "bytes": 162034,
+      "sha256": "9ba82275b32d30808063b0168f553dca29b911c1ad0fa7b0b2e7b54de4e2110b",
+      "git_blob_sha1": "634ffbfdb5666c057aa57789cedde360004eb282"
+    },
+    {
       "path": "research/report-assets/drawdown.png",
       "bytes": 355276,
       "sha256": "dc5f0077220e2f96f8999732ae62fb46f47bd658d57a4ef3cd4f8e9c6033656f",
@@ -442,6 +460,30 @@
       "bytes": 185566,
       "sha256": "3588d0548bc7417c5bfdce76f25eeec4e55e988d862e1adc0b791cec9814f74c",
       "git_blob_sha1": "e4ec7abfa5e4c583e845ba15443a1bf432f5a258"
+    },
+    {
+      "path": "research/report-assets/later-wealth.png",
+      "bytes": 227828,
+      "sha256": "2ecef572ca7dcf49ebe4e77b8a8f2ee7ff643243e7a90977dd23704691762fdb",
+      "git_blob_sha1": "7fbda1788c196808d52f1d54da2cd3ddd4780357"
+    },
+    {
+      "path": "research/report-assets/research-cover.png",
+      "bytes": 179404,
+      "sha256": "7f5845923e9073bcc28bd3fa1d8f03d17db506953d1441f6094aa318a8f818f7",
+      "git_blob_sha1": "392f39ada82c0f012b12f8e1c16013f9f4211f41"
+    },
+    {
+      "path": "research/report-assets/return-and-risk.png",
+      "bytes": 130666,
+      "sha256": "d1fe16dcf7673d6326162b4aa0d914077fdb0a1f6d72800ce33f62c38ac45d95",
+      "git_blob_sha1": "a4d8fddd776ea25a2e8ff375bbc4d80eeef0d949"
+    },
+    {
+      "path": "research/report-assets/visualization-manifest.json",
+      "bytes": 2553,
+      "sha256": "1e46d81f8a6794f34aa630c60af6ddc08af3e130b938a617028f603798158bbd",
+      "git_blob_sha1": "aad9878934a6c42fa56f5997b16afa77e1323c72"
     },
     {
       "path": "research/report-assets/wealth.png",
@@ -514,6 +556,12 @@
       "bytes": 2931,
       "sha256": "91042aa69593796fec1be83149c6268793a94205a7a27e6e6f28d05940c91a8b",
       "git_blob_sha1": "72fd7afec4fa4249bee2ca3735d7eebb121c743e"
+    },
+    {
+      "path": "research/results/github_visuals_validation.json",
+      "bytes": 2028,
+      "sha256": "7cd053a2ce337384dc189e73b36f0f3995dbb65fa978ee73dc1766df0b6325ee",
+      "git_blob_sha1": "09186a369365d4c5a9ed022e6dd97395137f2c8f"
     },
     {
       "path": "research/results/independent_replay.json",
@@ -640,6 +688,12 @@
       "bytes": 1247,
       "sha256": "9247c61078c9d8e5925588e9c334e58b87803857eef27cd6241b4e372ea3835f",
       "git_blob_sha1": "1b8941ca1f9b1c168705c89bc4bcfea25d8dd6d0"
+    },
+    {
+      "path": "research/scripts/render_github_visuals.py",
+      "bytes": 11755,
+      "sha256": "9b1bd81366e369c95417221f9eae50efe609c6b900690d132cdac3c555981d82",
+      "git_blob_sha1": "78894e8dbf1b07c8b026aff49e143204a9837c9c"
     },
     {
       "path": "research/scripts/restore_archives.py",

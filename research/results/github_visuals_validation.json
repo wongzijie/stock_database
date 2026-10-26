@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-26",
+  "surface": "GitHub README and standalone PNG gallery",
+  "homepage_png_count": 8,
+  "new_png_count": 5,
+  "archival_pngs_unchanged": true,
+  "original_numeric_results_and_code_unchanged": true,
+  "all_8_local_images_visually_inspected": true,
+  "local_links_verified": 53,
+  "sources": "Frozen CSV/NPZ; no parameter selection or backtest rerun",
+  "images": [
+    {
+      "file": "research/report-assets/research-cover.png",
+      "size": [
+        2160,
+        1215
+      ],
+      "sha256": "7f5845923e9073bcc28bd3fa1d8f03d17db506953d1441f6094aa318a8f818f7"
+    },
+    {
+      "file": "research/report-assets/return-and-risk.png",
+      "size": [
+        2160,
+        1080
+      ],
+      "sha256": "d1fe16dcf7673d6326162b4aa0d914077fdb0a1f6d72800ce33f62c38ac45d95"
+    },
+    {
+      "file": "research/report-assets/later-wealth.png",
+      "size": [
+        2160,
+        1152
+      ],
+      "sha256": "2ecef572ca7dcf49ebe4e77b8a8f2ee7ff643243e7a90977dd23704691762fdb"
+    },
+    {
+      "file": "research/report-assets/drawdown.png",
+      "size": [
+        2160,
+        827
+      ],
+      "sha256": "dc5f0077220e2f96f8999732ae62fb46f47bd658d57a4ef3cd4f8e9c6033656f"
+    },
+    {
+      "file": "research/report-assets/annual-returns.png",
+      "size": [
+        2160,
+        990
+      ],
+      "sha256": "2a67a11986618d2849320f0a07e38c9642d980e224d9b5c5bf6fd0179500fed3"
+    },
+    {
+      "file": "research/report-assets/cost-sensitivity.png",
+      "size": [
+        2160,
+        1080
+      ],
+      "sha256": "9ba82275b32d30808063b0168f553dca29b911c1ad0fa7b0b2e7b54de4e2110b"
+    },
+    {
+      "file": "research/report-assets/full-grid.png",
+      "size": [
+        2160,
+        1026
+      ],
+      "sha256": "3588d0548bc7417c5bfdce76f25eeec4e55e988d862e1adc0b791cec9814f74c"
+    },
+    {
+      "file": "research/report-assets/wealth.png",
+      "size": [
+        2160,
+        827
+      ],
+      "sha256": "7efb39dcbcb23086b8eec2459c8024e1a887531921dacdbee577b910551149c6"
+    }
+  ]
+}

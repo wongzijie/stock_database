@@ -1,0 +1,93 @@
+{
+  "purpose": "GitHub image showcase of frozen A800 results",
+  "generated_date": "2026-10-26",
+  "new_images": [
+    {
+      "file": "research-cover.png",
+      "sources": [
+        "selected_comparisons.csv",
+        "benchmarks.csv"
+      ],
+      "question": "What is the historical return/risk tradeoff?",
+      "notes": {
+        "period": "2016–2025",
+        "bps_oneway": 10,
+        "rates": "CAGR and daily maximum drawdown"
+      },
+      "sha256": "7f5845923e9073bcc28bd3fa1d8f03d17db506953d1441f6094aa318a8f818f7"
+    },
+    {
+      "file": "return-and-risk.png",
+      "sources": [
+        "selected_comparisons.csv",
+        "benchmarks.csv"
+      ],
+      "question": "How much drawdown accompanied the return advantage?",
+      "notes": {
+        "period": "2016–2025",
+        "bps_oneway": 10,
+        "bar_baseline": 0
+      },
+      "sha256": "d1fe16dcf7673d6326162b4aa0d914077fdb0a1f6d72800ce33f62c38ac45d95"
+    },
+    {
+      "file": "later-wealth.png",
+      "sources": [
+        "selected_paths.npz",
+        "benchmark_paths.npz",
+        "meta.json"
+      ],
+      "question": "How did the later-period reset accounts compound?",
+      "notes": {
+        "period": "2016–2025",
+        "bps_oneway": 10,
+        "wealth_scale": "logarithmic",
+        "sampling": "first baseline and month ends"
+      },
+      "sha256": "2ecef572ca7dcf49ebe4e77b8a8f2ee7ff643243e7a90977dd23704691762fdb"
+    },
+    {
+      "file": "cost-sensitivity.png",
+      "sources": [
+        "selected_comparisons.csv",
+        "benchmarks.csv"
+      ],
+      "question": "Does the return advantage survive higher assumed fees?",
+      "notes": {
+        "period": "2016–2025",
+        "strategy_bps": [
+          0,
+          5,
+          10,
+          20
+        ],
+        "benchmark_bps": [
+          0,
+          10,
+          20
+        ]
+      },
+      "sha256": "9ba82275b32d30808063b0168f553dca29b911c1ad0fa7b0b2e7b54de4e2110b"
+    },
+    {
+      "file": "annual-returns.png",
+      "sources": [
+        "annual_later_reset.csv"
+      ],
+      "question": "Were the returns consistent each year?",
+      "notes": {
+        "period": "2016–2025",
+        "bps_oneway": 10,
+        "measure": "calendar-year return",
+        "palette": "diverging around zero; values are not confidence intervals"
+      },
+      "sha256": "2a67a11986618d2849320f0a07e38c9642d980e224d9b5c5bf6fd0179500fed3"
+    }
+  ],
+  "archival_images": [
+    "wealth.png",
+    "drawdown.png",
+    "full-grid.png"
+  ],
+  "original_numeric_results_modified": false
+}
