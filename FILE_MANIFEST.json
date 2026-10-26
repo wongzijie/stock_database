@@ -433,9 +433,9 @@
     },
     {
       "path": "research/report-assets/README.md",
-      "bytes": 3038,
-      "sha256": "be419b7cc718f58957ad4b9317a4db59101e139b69cc27165a14136b1766e14e",
-      "git_blob_sha1": "1e2bff01bbe3d77db604c3b3a176be3807a108ff"
+      "bytes": 3347,
+      "sha256": "58a705a73246d398ebe63fbcf90c77516e2e8211525005539e3dbc63fe96d186",
+      "git_blob_sha1": "342b71c2739956a9bb379cb5871b3001a25d05e0"
     },
     {
       "path": "research/report-assets/annual-returns.png",
@@ -480,10 +480,16 @@
       "git_blob_sha1": "a4d8fddd776ea25a2e8ff375bbc4d80eeef0d949"
     },
     {
+      "path": "research/report-assets/social-preview.png",
+      "bytes": 62630,
+      "sha256": "2ff10341e6502cbfb4718e8d6e69385d4cbee12609810dd461a7779f9555494e",
+      "git_blob_sha1": "c869a988f1392723b1cea44f0697ada5b9e61430"
+    },
+    {
       "path": "research/report-assets/visualization-manifest.json",
-      "bytes": 2553,
-      "sha256": "1e46d81f8a6794f34aa630c60af6ddc08af3e130b938a617028f603798158bbd",
-      "git_blob_sha1": "aad9878934a6c42fa56f5997b16afa77e1323c72"
+      "bytes": 3061,
+      "sha256": "f900c982673419d9ef552dc37eb29d32ac57edb0074e9c93bd19af36897beb6b",
+      "git_blob_sha1": "3f5c5303ed3f616563964a24bf7633ad3bd71713"
     },
     {
       "path": "research/report-assets/wealth.png",
@@ -559,9 +565,9 @@
     },
     {
       "path": "research/results/github_visuals_validation.json",
-      "bytes": 2028,
-      "sha256": "7cd053a2ce337384dc189e73b36f0f3995dbb65fa978ee73dc1766df0b6325ee",
-      "git_blob_sha1": "09186a369365d4c5a9ed022e6dd97395137f2c8f"
+      "bytes": 2314,
+      "sha256": "853d66f91af5a3fc04ee0930ebbe808c4964eb2e61aa5adad1f2905fd3c26c48",
+      "git_blob_sha1": "2128687ad1ffeca76b5110e747a67037b64b23a2"
     },
     {
       "path": "research/results/independent_replay.json",
@@ -691,9 +697,9 @@
     },
     {
       "path": "research/scripts/render_github_visuals.py",
-      "bytes": 11755,
-      "sha256": "9b1bd81366e369c95417221f9eae50efe609c6b900690d132cdac3c555981d82",
-      "git_blob_sha1": "78894e8dbf1b07c8b026aff49e143204a9837c9c"
+      "bytes": 13178,
+      "sha256": "a1626bd6ca98d57f243b88aa25965e36d8f57bdcb5aa693ff208993f05770b70",
+      "git_blob_sha1": "241e7a400721abd881bdd0a3fef4e676cde30657"
     },
     {
       "path": "research/scripts/restore_archives.py",

@@ -2,10 +2,9 @@
   "date": "2026-10-26",
   "surface": "GitHub README and standalone PNG gallery",
   "homepage_png_count": 8,
-  "new_png_count": 5,
+  "new_png_count": 6,
   "archival_pngs_unchanged": true,
   "original_numeric_results_and_code_unchanged": true,
-  "all_8_local_images_visually_inspected": true,
   "local_links_verified": 53,
   "sources": "Frozen CSV/NPZ; no parameter selection or backtest rerun",
   "images": [
@@ -72,6 +71,20 @@
         827
       ],
       "sha256": "7efb39dcbcb23086b8eec2459c8024e1a887531921dacdbee577b910551149c6"
+    },
+    {
+      "file": "research/report-assets/social-preview.png",
+      "size": [
+        1280,
+        640
+      ],
+      "sha256": "2ff10341e6502cbfb4718e8d6e69385d4cbee12609810dd461a7779f9555494e"
     }
-  ]
+  ],
+  "total_png_count": 9,
+  "social_preview_dimensions": [
+    1280,
+    640
+  ],
+  "all_9_local_images_visually_inspected": true
 }

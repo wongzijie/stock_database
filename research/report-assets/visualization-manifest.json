@@ -82,6 +82,24 @@
         "palette": "diverging around zero; values are not confidence intervals"
       },
       "sha256": "2a67a11986618d2849320f0a07e38c9642d980e224d9b5c5bf6fd0179500fed3"
+    },
+    {
+      "file": "social-preview.png",
+      "sources": [
+        "selected_comparisons.csv",
+        "benchmarks.csv"
+      ],
+      "question": "What should a shared repository link communicate?",
+      "notes": {
+        "period": "2016–2025",
+        "bps_oneway": 10,
+        "dimensions": [
+          1280,
+          640
+        ],
+        "purpose": "repository social preview; central safe area"
+      },
+      "sha256": "2ff10341e6502cbfb4718e8d6e69385d4cbee12609810dd461a7779f9555494e"
     }
   ],
   "archival_images": [

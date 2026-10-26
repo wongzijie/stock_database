@@ -46,8 +46,8 @@ def header(fig,title,subtitle):
     blossom(fig)
 def footer(fig,text):fig.text(.07,.035,text,fontsize=10,color=C['muted'],ha='left')
 manifest=[]
-def save(fig,name,sources,question,notes):
-    path=OUT/name;fig.savefig(path,dpi=180);plt.close(fig)
+def save(fig,name,sources,question,notes,dpi=180):
+    path=OUT/name;fig.savefig(path,dpi=dpi);plt.close(fig)
     manifest.append({'file':name,'sources':sources,'question':question,'notes':notes,
                      'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
 
@@ -152,6 +152,22 @@ cax=fig.add_axes([.935,.25,.014,.51]);cb=fig.colorbar(im,cax=cax);cb.set_ticks([
 footer(fig,'2020 drove a large share of historical compounding; 2021 was a loss for the 2-stock basket.')
 save(fig,'annual-returns.png',['annual_later_reset.csv'],
      'Were the returns consistent each year?',{'period':'2016–2025','bps_oneway':10,'measure':'calendar-year return','palette':'diverging around zero; values are not confidence intervals'})
+
+# 6. A separate 1280x640 share card, with central safe margins for previews.
+fig=plt.figure(figsize=(12,6))
+fig.text(.5,.9,'A800 / MOMENTUM RESEARCH',ha='center',fontsize=12,color=C['two'],fontweight='bold')
+fig.text(.5,.78,'5 days. Up to 5 stocks.',ha='center',fontsize=29,fontweight='bold')
+fig.text(.5,.69,'2016–2025 reset accounts · 10 bps per side',ha='center',fontsize=11,color=C['muted'])
+for x,(label,r,color)in zip([.24,.5,.76],items):
+    short={'2-stock basket':'2-stock basket','5-stock basket':'5-stock basket','SPY buy & hold':'SPY buy & hold'}[label]
+    fig.text(x,.55,short,ha='center',fontsize=11,color=color)
+    fig.text(x,.435,percent(r['cagr']),ha='center',fontsize=30,color=color,fontweight='bold')
+    fig.text(x,.365,'annualized return',ha='center',fontsize=10,color=C['muted'])
+    fig.text(x,.285,'DD '+percent(r['max_drawdown']),ha='center',fontsize=12,fontweight='bold')
+fig.text(.5,.175,'Parameters chosen on 1991–2015 · No leverage',ha='center',fontsize=10)
+fig.text(.5,.115,'Historical snapshot. Static universe, prior research reuse and execution limits remain.',ha='center',fontsize=8.7,color=C['muted'])
+save(fig,'social-preview.png',['selected_comparisons.csv','benchmarks.csv'],
+     'What should a shared repository link communicate?',{'period':'2016–2025','bps_oneway':10,'dimensions':[1280,640],'purpose':'repository social preview; central safe area'},dpi=1280/12)
 
 OUT.mkdir(exist_ok=True)
 (OUT/'visualization-manifest.json').write_text(json.dumps({'purpose':'GitHub image showcase of frozen A800 results','generated_date':'2026-10-26','new_images':manifest,'archival_images':['wealth.png','drawdown.png','full-grid.png'],'original_numeric_results_modified':False},ensure_ascii=False,indent=2)+'\n')
